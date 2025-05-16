@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "B0377F2D-BC0C-4621-B85C-5E7C818CB582",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "region" : "US"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "EasyNumberTests",
+        "name" : "EasyNumberTests"
+      }
+    }
+  ],
+  "version" : 1
+}
