@@ -3,7 +3,7 @@ import Foundation
 
 @testable import EasyNumber
 
-@Suite("Int Extension Tests")
+@Suite("Int")
 struct IntExtensionTests {
     
     @Test("formatted(_:, locale:) with currency formatter")
