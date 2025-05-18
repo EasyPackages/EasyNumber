@@ -8,7 +8,10 @@ let package = Package(
         .library(name: "EasyNumber", targets: ["EasyNumber"]),
     ],
     dependencies: [
-        .package(path: "../EasyCore")
+        .package(
+            url: "https://github.com/EasyPackages/EasyCore.git",
+            .upToNextMajor(from: "0.0.1")
+        )
     ],
     targets: [
         .target(name: "EasyNumber", dependencies: ["EasyCore"]),
